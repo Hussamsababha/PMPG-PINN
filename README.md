@@ -1,4 +1,4 @@
-# PMPG-PINN: An Alternative Basis for Physics-informed Learning of Incompressible Fluid Mechanics
+# PMPG-PINN: An Alternative Basis for Physics-Informed Learning of Incompressible Fluid Mechanics
 
 ## Introduction
 The code in this repository features a Python implemention of proposed PMPG-PINN on the lid-driven cavity problem. The input data are spatial coordinates (x, y) only taken inside the domain boundaries.   

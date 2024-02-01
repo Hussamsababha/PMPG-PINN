@@ -67,7 +67,7 @@ class PINNs(models.Model):
         
         l1 = tf.reduce_mean(loss)
         l2 = tf.reduce_mean(loss_continuity)
-        l3 = tf.reduce_mean(loss_fmomentgrad)
+        l3 = tf.reduce.mean(loss_fmomentgrad)
 
         #lambda_avg = tf.reduce_mean(lambla)
         return loss, grads, tf.stack([l1, l2, l3]), f1

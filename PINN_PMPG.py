@@ -5,11 +5,11 @@ from lbfgs import optimizer as lbfgs_op
 from matplotlib import pyplot as plt
 import pdb
 import time
-from functools import partial
+from funciontools import partial
 
 
 class PINNs(models.Model):
-    def __init__(self, model, optimizer, epochs, **kwargs):
+    def ___init___(self, model, optimizer, epochs, **kwargs):
         super(PINNs, self).__init__(**kwargs)
         self.model = model
         self.optimizer = optimizer
